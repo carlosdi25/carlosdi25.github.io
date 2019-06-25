@@ -10,13 +10,16 @@ body{
   font-family: 'Roboto', sans-serif;
 }
 
+div#contenedor{
+  padding: 30px;
+}
+
 div#principal{
   background-color:rgba(0,0,0,0.7);
   font-size: 18px;
   color: white;
-  width: 600px;
+  width: 100%;
   border-radius: 10px;
-  margin: 40px 80px;
   padding: 30px;
 }
 
@@ -36,13 +39,12 @@ a#boton{
 }
 
 
-@media (max-width: 768px) {
+@media (min-width: 700px) {
   div#contenedor{
-  width:100%
+  padding: 40px 80px;
 }
   
   div#principal{
-    width: 90%;
-    margin: 20px;
+  width: 600px;
   }
 }
