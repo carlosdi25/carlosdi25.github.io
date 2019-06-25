@@ -35,15 +35,13 @@ a#boton{
   padding: 10PX 20PX;
   text-align: center;
   text-decoration: none;
-
 }
 
 
 @media (min-width: 700px) {
   div#contenedor{
   padding: 40px 80px;
-}
-  
+  }
   div#principal{
   width: 600px;
   }
